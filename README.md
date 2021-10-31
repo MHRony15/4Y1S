@@ -24,7 +24,7 @@ for mpi:
 setup :
 
 $ sudo apt-get update
-
+$ sudo apt install build-essential
 $sudo apt-get upgrade
 
 $ sudo apt-get install libopenmpi-dev
