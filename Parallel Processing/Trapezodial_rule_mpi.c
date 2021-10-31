@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-/* We'll be using MPI routines, definitions, etc. */
 #include <mpi.h>
-
-/* Calculate local integral  */
 double Trap(double left_endpt, double right_endpt, int trap_count,
    double base_len);
 
