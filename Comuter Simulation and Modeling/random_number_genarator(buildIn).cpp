@@ -7,15 +7,11 @@ int main(){
         myfile.open("rbuild.txt");
         cout<<"Enter the sequence Number: ";
         cin>>n;
-        srand(time(0));
         for(int i=0;i<n;i++){
-            myfile<<rand()<<" ";
+            myfile<<rand()%100<<" ";
         }
         myfile.close();
-        int a;
-        while(myfile>> a){
-            cout<<a<<" ";
-        }
+
 
     return 0;
 }
